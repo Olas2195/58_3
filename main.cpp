@@ -43,7 +43,7 @@ void program::maxZPliku() {
 			int system = 1;
 			for(int i=0; i<SIZE; i++) {
 	            pliki[i]>>liczba1[i] >> liczba2[i];
-            	liczba[i]=strtol(liczba2[i].c_str(), &endptr, system*= 2);
+            	liczba[i]=strtol(liczba2[i].c_str(), &endptr, system*=2);
 	        }
 	        if(pierwszy) {
 	            for(int i=0; i<SIZE; i++){
